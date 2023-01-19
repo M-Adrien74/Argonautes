@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Bangers&family=La+Belle+Aurore&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Architects Daughter', cursive;
+}
+
+
+header {
+  background: #f4f4f4;
+  text-align: center;
+  padding: 2em;
+}
+
+header img {
+  max-width: 96px;
+}
+
+header h1 {
+  font-size: 2.5em;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+.new-member-form {
+  margin: 2em 0 4em 0;
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5em;
+}
+
+.papyrus {
+  column-count: 3;
+  margin-top: 1.5em;
+  background: #ffe4b3;
+  border-radius: 0.5em 3em 0.5em 2em;
+  box-shadow: 2px 13px 27px 0 #443f1f;
+}
+
+.member-item {
+  padding: 0.25em 0;
+  column-count: 4;
+  display: flex;
+  justify-content: center;
+}
+
+footer {
+  margin-top: 2em;
+  text-align: center;
+  color: #fff;
+  background: #f76c6c;
+  padding: 0.25em 0;
+}
